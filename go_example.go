@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main () {
+	"github.com/krithikvaidya/go_example/stringsplusplus"
+)
 
-	fmt.Println ("Test")
+func main() {
+
+	fmt.Println("Test")
+	fmt.Println(stringsplusplus.ReverseRunes("Hello World!"))
 
 }
